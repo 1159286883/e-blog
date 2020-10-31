@@ -19,7 +19,6 @@ public class IndexController extends BaseController {
         int pn = ServletRequestUtils.getIntParameter(req,"pn",1);
         int size = ServletRequestUtils.getIntParameter(req,"size",5);
         Page page = new Page(pn,size);
-        IPage result = mPostService.paging();
 
         req.setAttribute("currentCategoryId",0);
         return  "index";
