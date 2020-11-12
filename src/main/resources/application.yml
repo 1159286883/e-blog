@@ -10,7 +10,7 @@ spring:
       password: 'x19711021'
 
   mybatis-plus:
-    mapper-locations: classpath*:/mapper/**Mapper.xml
+    mapper-locations: classpath*:/mapper/*.xml
 
   freemarker:
     suffix: .ftl
