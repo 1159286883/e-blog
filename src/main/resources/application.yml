@@ -1,23 +1,28 @@
 spring:
 
   datasource:
-      driver-class-name: com.mysql.cj.jdbc.Driver
+      driver-class-name: com.p6spy.engine.spy.P6SpyDriver
      # url: jdbc:mysql://139.159.221.252:3306/yblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
      # username: root
      # password: '!Xx19711021'
-      url: jdbc:mysql://localhost:3306/yblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
+      url: jdbc:p6spy:mysql://localhost:3306/blog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
       username: root
-      password: 'x19711021'
+      password: '123456'
 
   mybatis-plus:
     mapper-locations: classpath*:/mapper/*.xml
-
+  mvc:
+    static-path-pattern: /static/res/**
   freemarker:
     suffix: .ftl
     settings:
       classic_compatible: true
       datetime_format: yyyy-MM-dd HH:mm
       number_format: 0.##
+    request-context-attribute: base
+    expose-request-attributes: true
+    expose-session-attributes: true
+    expose-spring-macro-helpers: true
 
 
 

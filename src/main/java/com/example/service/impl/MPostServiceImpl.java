@@ -7,6 +7,7 @@ import com.example.entity.MPost;
 import com.example.mapper.MPostMapper;
 import com.example.service.MPostService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.example.vo.PostVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,7 +26,7 @@ public class MPostServiceImpl extends ServiceImpl<MPostMapper, MPost> implements
     MPostMapper mPostMapper;
 
     @Override
-    public IPage paging(Page page, Long categoryId, Long userId, Integer level, Boolean recommend, String order){
+    public IPage<PostVo> paging(Page page, Long categoryId, Long userId, Integer level, Boolean recommend, String order){
 
         if(level==null) level=-1;
         QueryWrapper wrapper = new QueryWrapper<MPost>()
@@ -34,6 +35,12 @@ public class MPostServiceImpl extends ServiceImpl<MPostMapper, MPost> implements
                 .eq(level==0, "level",0)
                 .gt(level>0,"level",0)
                 .orderByDesc(order!=null, order);
-        return mPostMapper.selectPosts(page, wrapper);
+        return mPostMapper.selectPosts(page,wrapper);
+    }
+
+    @Override
+    public PostVo selectOnePost(QueryWrapper<MPost> wrapper) {
+
+        return mPostMapper.selectOnePost(wrapper);
     }
 }

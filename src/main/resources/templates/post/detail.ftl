@@ -8,7 +8,7 @@
     <div class="layui-row layui-col-space15">
       <div class="layui-col-md8 content detail">
         <div class="fly-panel detail-box">
-          <h1>Fly Template v3.0，基于 layui 的极简社区页面模版</h1>
+          <h1>${post.title}</h1>
           <div class="fly-detail-info">
             <!-- <span class="layui-badge">审核中</span> -->
             <span class="layui-badge layui-bg-green fly-detail-column">动态</span>

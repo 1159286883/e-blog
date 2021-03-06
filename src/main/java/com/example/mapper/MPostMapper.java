@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.entity.MPost;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.vo.PostVo;
-import io.lettuce.core.dynamic.annotation.Param;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Component;
 
 /**
@@ -22,4 +22,6 @@ import org.springframework.stereotype.Component;
 public interface MPostMapper extends BaseMapper<MPost> {
 
       IPage<PostVo> selectPosts(Page page, @Param(Constants.WRAPPER) QueryWrapper wrapper);
+
+      PostVo selectOnePost(@Param(Constants.WRAPPER)QueryWrapper<MPost> wrapper);
 }

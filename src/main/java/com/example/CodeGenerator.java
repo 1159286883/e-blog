@@ -42,7 +42,7 @@ public class CodeGenerator {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        String projectPath = System.getProperty("user.dir");
+        final String projectPath = System.getProperty("user.dir");
         gc.setOutputDir(projectPath + "/src/main/java");
 //        gc.setOutputDir("D:\\test");
         gc.setAuthor("wly");
@@ -80,7 +80,7 @@ public class CodeGenerator {
         // String templatePath = "/templates/mapper.xml.vm";
 
         // 自定义输出配置
-        List<FileOutConfig> focList = new ArrayList<>();
+        List<FileOutConfig> focList = new ArrayList<FileOutConfig>();
         // 自定义配置会被优先输出
         focList.add(new FileOutConfig(templatePath) {
             @Override
