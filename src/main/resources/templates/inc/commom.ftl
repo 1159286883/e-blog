@@ -32,7 +32,7 @@
 
     <li>
         <a href="/user/${post.authorId}" class="fly-avatar">
-            <img src="${post.authorAvatar}" alt="${post.authorName}">
+            <img src="/static${post.authorAvatar}" alt="${post.authorName}">
         </a>
         <h2>
             <a class="layui-badge">${post.categoryName}</a>
