@@ -22,4 +22,5 @@ public interface MPostService extends IService<MPost> {
 
     PostVo selectOnePost(QueryWrapper<MPost> wrapper);
 
+    void initWeekRank();
 }

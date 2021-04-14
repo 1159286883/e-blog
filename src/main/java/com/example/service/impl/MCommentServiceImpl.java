@@ -1,9 +1,14 @@
 package com.example.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.entity.MComment;
 import com.example.mapper.MCommentMapper;
 import com.example.service.MCommentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.example.vo.CommentVo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,5 +21,17 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class MCommentServiceImpl extends ServiceImpl<MCommentMapper, MComment> implements MCommentService {
+
+    @Autowired
+    MCommentMapper mCommentMapper;
+    @Override
+    public IPage<CommentVo> paging(Page page, Long postId, Long userId, String order) {
+        return mCommentMapper.selectComments(page,new QueryWrapper<MComment>()
+                .eq(postId != null, "post_id", postId)
+                .eq(userId != null, "user_id", userId)
+                .orderByDesc(order != null, order)
+        );
+    }
+
 
 }

@@ -24,22 +24,30 @@
           </span>
           </div>
 
-          <ul class="fly-list">
-            <@posts category_id=currentCategoryId pn=1 size=2>
+          <@posts category_id=currentCategoryId pn=pn size=2>
+
+            <ul class="fly-list">
               <#list results.records as post>
                 <@plisting post></@plisting>
               </#list>
-            </@posts>
-          </ul>
+            </ul>
 
+            <@paging results></@paging>
+
+          </@posts>
 
 
         </div>
+        <#include "/inc/right.ftl" />
       </div>
-      <#include "/inc/right.ftl"  />
+
+
+
     </div>
   </div>
-
+  <script>
+    layui.cache.page = 'jie';
+  </script>
 </@layout>
 
 

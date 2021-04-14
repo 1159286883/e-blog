@@ -9,6 +9,10 @@ spring:
       username: root
       password: '123456'
 
+  redis:
+   host: localhost
+   port: 6379
+   password:
   mybatis-plus:
     mapper-locations: classpath*:/mapper/*.xml
   mvc:

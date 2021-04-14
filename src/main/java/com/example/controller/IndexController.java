@@ -19,10 +19,7 @@ public class IndexController extends BaseController {
     @RequestMapping({"","/"})
     public String index (){
 
-        int pn = ServletRequestUtils.getIntParameter(req,"pn",1);
-        int size = ServletRequestUtils.getIntParameter(req,"size",2);
-        Page page = new Page(pn,size);
-        IPage results = mPostService.paging(page,null,null,null,null,"created");
+        IPage results = mPostService.paging(getPage(),null,null,null,null,"created");
         req.setAttribute("pageData",results);
         req.setAttribute("currentCategoryId",0);
         return  "index";

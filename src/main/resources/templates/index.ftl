@@ -52,5 +52,6 @@
             <#include "/inc/right.ftl"  />
         </div>
     </div>
+    </div>
 
 </@layout>

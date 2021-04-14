@@ -2,8 +2,10 @@ package com.example.controller;
 
 
 
-import com.example.service.MPostService;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.example.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.ServletRequestUtils;
 
 
 import javax.servlet.http.HttpServletRequest;
@@ -16,5 +18,28 @@ public class BaseController {
     HttpServletRequest req;
 
     @Autowired
-    MPostService mPostService;
+    MPostService mpostService;
+
+    @Autowired
+    MCommentService mcommentService;
+
+    @Autowired
+    MUserService muserService;
+
+    @Autowired
+    MUserMessageService messageService;
+
+    @Autowired
+    MUserCollectionService collectionService;
+
+    @Autowired
+    MCategoryService categoryService;
+
+
+    public Page getPage() {
+        int pn = ServletRequestUtils.getIntParameter(req, "pn", 1);
+        int size = ServletRequestUtils.getIntParameter(req, "size", 2);
+        return new Page(pn, size);
+    }
+
 }

@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 
 import com.example.entity.MCategory;
 import com.example.service.MCategoryService;
+import com.example.service.MPostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -17,6 +18,9 @@ public class ContextStartup implements ApplicationRunner, ServletContextAware {
     @Autowired
     MCategoryService mCategoryService;
     ServletContext servletContext;
+
+    @Autowired
+    MPostService mPostService;
     @Override
     public void run(ApplicationArguments args) throws Exception {
         List<MCategory> categories = mCategoryService.list(new QueryWrapper<MCategory>()
@@ -24,6 +28,7 @@ public class ContextStartup implements ApplicationRunner, ServletContextAware {
         );
         servletContext.setAttribute("categorys", categories);
 
+        mPostService.initWeekRank();
     }
 
     @Override
