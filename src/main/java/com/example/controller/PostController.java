@@ -31,6 +31,7 @@ public class PostController  extends BaseController{
 
         PostVo vo = mPostService.selectOnePost(new QueryWrapper<MPost>().eq("p.id", id));
         Assert.notNull(vo, "文章已被删除");
+        mpostService.putViewCount(vo);
         // 1分页，2文章id，3用户id，排序
         IPage<CommentVo> results = mcommentService.paging(getPage(),vo.getId(), null, "created");
 
