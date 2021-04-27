@@ -27,7 +27,6 @@
     <#include "/inc/footer.ftl"  />
 
     <script>
-        // layui.cache.page = '';
         layui.cache.user = {
             username: '${profile.username!"游客"}'
             ,uid: ${profile.id!"-1"}
