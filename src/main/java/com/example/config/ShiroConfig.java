@@ -43,28 +43,7 @@ public class ShiroConfig {
 
         Map<String, String> hashMap = new LinkedHashMap<>();
 
-        hashMap.put("/res/**", "anon");
 
-        hashMap.put("/user/home", "auth");
-        hashMap.put("/user/set", "auth");
-        hashMap.put("/user/upload", "auth");
-        hashMap.put("/user/index", "auth");
-        hashMap.put("/user/public", "auth");
-        hashMap.put("/user/collection", "auth");
-        hashMap.put("/user/mess", "auth");
-        hashMap.put("/msg/remove/", "auth");
-        hashMap.put("/message/nums/", "auth");
-
-        hashMap.put("/collection/remove/", "auth");
-        hashMap.put("/collection/find/", "auth");
-        hashMap.put("/collection/add/", "auth");
-
-        hashMap.put("/post/edit", "auth");
-        hashMap.put("/post/submit", "auth");
-        hashMap.put("/post/delete", "auth");
-        hashMap.put("/post/reply/", "auth");
-
-        hashMap.put("/websocket", "anon");
         hashMap.put("/login", "anon");
         filterFactoryBean.setFilterChainDefinitionMap(hashMap);
 

@@ -103,7 +103,6 @@ public class AuthController extends BaseController {
         // 完成注册
         Result result = muserService.register(muser);
         return result.action("/login");
-
     }
 
     @RequestMapping("/user/logout")

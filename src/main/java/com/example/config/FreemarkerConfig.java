@@ -26,6 +26,7 @@ public class FreemarkerConfig {
         configuration.setSharedVariable("timeAgo", new TimeAgoMethod());
         configuration.setSharedVariable("posts", postsTemplate);
         configuration.setSharedVariable("hots", hotsTemplate);
+        configuration.setSharedVariable("shiro", new ShiroTags());
     }
 
 }
