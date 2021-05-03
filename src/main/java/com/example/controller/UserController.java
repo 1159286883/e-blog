@@ -79,7 +79,7 @@ public class UserController extends BaseController {
                 .eq("username", getProfile().getUsername())
                 .ne("id", getProfileId()));
         if(count > 0) {
-            return Result.fail("改昵称已被占用");
+            return Result.fail("该昵称已被占用");
         }
 
         MUser temp = muserService.getById(getProfileId());
