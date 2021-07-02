@@ -12,16 +12,16 @@
         <link rel="stylesheet" href="/static/res/css/global.css">
 
         <script src="/static/res/layui/layui.js"></script>
-       <#-- <script src="/static/res/js/jquery.min.js"></script>
+        <#--<script src="/static/res/js/jquery.min.js"></script>
         <script src="/static/res/js/sockjs.js"></script>
-        <script src="/static/res/js/stomp.js"></script>-->
-        <script src="/static/res/js/im.js"></script>
+        <script src="/static/res/js/stomp.js"></script>
+        <script src="/static/res/js/im.js"></script>-->
         <script src="/static/res/js/chat.js"></script>
         <script src="/static/res/mods/index.js"></script>
         <script src="/static/res/mods/face.js"></script>
         <script src="/static/res/mods/jie.js"></script>
         <script src="/static/res/mods/user.js"></script>
-        <script src="/static/res/mods/case.js"></script>
+        <script src="/static/res/mods/case.js"></script
 
     </head>
     <body>

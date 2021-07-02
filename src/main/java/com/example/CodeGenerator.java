@@ -33,7 +33,7 @@ public class CodeGenerator {
                 return ipt;
             }
         }
-        throw new MybatisPlusException("请输入正确的" + tip + "！");
+        throw new MybatisPlusException("请输入正的" + tip + "！");
     }
 
     public static void main(String[] args) {

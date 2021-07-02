@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdcf2997-6a3f-4920-80a0-d8a7e7913b10" name="默认的" comment="1">
+    <list default="true" id="f878d2df-76fe-4d2c-92ee-c1bf1ea85b9c" name="默认变更列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/res/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/res/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/inc/layout.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/inc/layout.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/YblogApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/YblogApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -28,635 +25,89 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\environment\apache-maven-3.6.3" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="downloadSourcesAutomatically" value="true" />
-        <option name="jdkForImporter" value="11" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="delegateBuildToMaven" value="true" />
-  </component>
-  <component name="ProjectId" id="1kVhhagpyDGbYkOFvXkAdZawxbC" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="新增" />
-  </component>
+  <component name="ProjectId" id="1tQB6yJkLxINUeFW69CrIg5aJcj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/eblog-master" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Users/Documents/WXWork/1688850237895085/Cache/File/2021-06/wxwork-tool" />
+    <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.5119904" />
+    <property name="project.structure.side.proportion" value="0.60209423" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\项目\e-blog\src\main\resources\static\res\images\avatar" />
-      <recent name="E:\项目\e-blog\src\main\java\com\example\commom" />
-      <recent name="E:\项目\e-blog\src\main\resources\static\res\layui" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.template" />
-      <recent name="com.example.config" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.vo" />
+      <recent name="D:\e-blog\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.YblogApplication">
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven" singleton="false">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="yblog []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="YblogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="YblogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="e-blog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.YblogApplication" />
-      <option name="DEBUG_MODE" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="DEBUG_MODE" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.0-M10" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_e-blog" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="62343" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Maven.yblog []" />
-      <item itemvalue="Spring Boot.YblogApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.YblogApplication" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="bdcf2997-6a3f-4920-80a0-d8a7e7913b10" name="默认的" comment="" />
-      <created>1605791786077</created>
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f878d2df-76fe-4d2c-92ee-c1bf1ea85b9c" name="默认变更列表" comment="" />
+      <created>1622691266539</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605791786077</updated>
-      <workItem from="1605791787167" duration="1232000" />
-      <workItem from="1605793041861" duration="1152000" />
-      <workItem from="1605795498988" duration="2097000" />
-      <workItem from="1605799671688" duration="2031000" />
-      <workItem from="1605884830572" duration="4737000" />
-      <workItem from="1605937930545" duration="600000" />
-      <workItem from="1606040251616" duration="383000" />
-      <workItem from="1606373409674" duration="738000" />
-      <workItem from="1606374164845" duration="1062000" />
-      <workItem from="1606375246188" duration="1420000" />
-      <workItem from="1606376684853" duration="1366000" />
-      <workItem from="1606378067928" duration="2422000" />
-      <workItem from="1606381032452" duration="1076000" />
-      <workItem from="1606546127655" duration="137000" />
-      <workItem from="1607061250056" duration="3292000" />
-      <workItem from="1607096413678" duration="542000" />
-      <workItem from="1607150159608" duration="19000" />
-      <workItem from="1608321616764" duration="1554000" />
-      <workItem from="1608371822293" duration="285000" />
-      <workItem from="1608383176324" duration="1160000" />
-      <workItem from="1608384370405" duration="1181000" />
-      <workItem from="1613322833330" duration="777000" />
-      <workItem from="1613371371904" duration="597000" />
-      <workItem from="1613579443775" duration="1559000" />
-      <workItem from="1613751216909" duration="593000" />
-      <workItem from="1613893522873" duration="1407000" />
-      <workItem from="1613897063797" duration="1390000" />
-      <workItem from="1613925995323" duration="4695000" />
-      <workItem from="1613975972713" duration="8000" />
-      <workItem from="1613984022090" duration="592000" />
-      <workItem from="1614145515259" duration="1591000" />
-      <workItem from="1614148313322" duration="1585000" />
-      <workItem from="1614149938872" duration="2284000" />
-      <workItem from="1614152246641" duration="945000" />
-      <workItem from="1614154082091" duration="1176000" />
-      <workItem from="1614156992890" duration="1356000" />
-      <workItem from="1614163916663" duration="827000" />
-      <workItem from="1614166179564" duration="1251000" />
-      <workItem from="1614230966160" duration="599000" />
-      <workItem from="1614238604397" duration="604000" />
-      <workItem from="1614255201615" duration="1658000" />
-      <workItem from="1614273774078" duration="937000" />
-      <workItem from="1614275612086" duration="1425000" />
-      <workItem from="1614277063676" duration="1789000" />
-      <workItem from="1614361463019" duration="599000" />
-      <workItem from="1614496051080" duration="976000" />
-      <workItem from="1614610832352" duration="834000" />
-      <workItem from="1614612847249" duration="1707000" />
-      <workItem from="1614614676209" duration="603000" />
-      <workItem from="1614623312266" duration="1134000" />
-      <workItem from="1614657165918" duration="1055000" />
-      <workItem from="1614689212354" duration="1834000" />
-      <workItem from="1614691071292" duration="1539000" />
-      <workItem from="1614692995229" duration="220000" />
-      <workItem from="1614693243101" duration="1486000" />
-      <workItem from="1614696835419" duration="1915000" />
-      <workItem from="1614700394400" duration="843000" />
-      <workItem from="1614702889290" duration="599000" />
-      <workItem from="1614706116993" duration="1361000" />
-      <workItem from="1614707527778" duration="1806000" />
-      <workItem from="1614709359577" duration="312000" />
-      <workItem from="1614709720605" duration="787000" />
-      <workItem from="1614716539507" duration="663000" />
-      <workItem from="1614717222497" duration="1787000" />
-      <workItem from="1614719054064" duration="724000" />
-      <workItem from="1614719858072" duration="1792000" />
-      <workItem from="1614721694795" duration="1281000" />
-      <workItem from="1614765971735" duration="602000" />
-      <workItem from="1614831562116" duration="4781000" />
-      <workItem from="1614836394922" duration="1537000" />
-      <workItem from="1614884106651" duration="1732000" />
-      <workItem from="1614885869211" duration="1791000" />
-      <workItem from="1614887676197" duration="545000" />
-      <workItem from="1614888226823" duration="776000" />
-      <workItem from="1614927064161" duration="1149000" />
-      <workItem from="1615015074331" duration="1617000" />
-      <workItem from="1615017179119" duration="1789000" />
-      <workItem from="1615018987024" duration="185000" />
-      <workItem from="1615019686318" duration="613000" />
-      <workItem from="1615020341478" duration="842000" />
-      <workItem from="1615188591354" duration="1653000" />
-      <workItem from="1615190350076" duration="1779000" />
-      <workItem from="1615194662738" duration="599000" />
-      <workItem from="1615202031858" duration="679000" />
-      <workItem from="1615220545744" duration="1233000" />
-      <workItem from="1615281434808" duration="1037000" />
-      <workItem from="1615288296866" duration="603000" />
-      <workItem from="1615346467846" duration="1362000" />
-      <workItem from="1615348233457" duration="2748000" />
-      <workItem from="1615353516100" duration="1791000" />
-      <workItem from="1615637384285" duration="193000" />
-      <workItem from="1616036768928" duration="3248000" />
-      <workItem from="1616047433140" duration="1148000" />
-      <workItem from="1616049381759" duration="1610000" />
-      <workItem from="1616051883048" duration="1527000" />
-      <workItem from="1616054182630" duration="124000" />
-      <workItem from="1616054321040" duration="684000" />
-      <workItem from="1616130149736" duration="197000" />
-      <workItem from="1616304351614" duration="1218000" />
-      <workItem from="1616313853343" duration="1795000" />
-      <workItem from="1616315703879" duration="1791000" />
-      <workItem from="1616317532480" duration="1853000" />
-      <workItem from="1616322749010" duration="11000" />
-      <workItem from="1616428193428" duration="792000" />
-      <workItem from="1616434584284" duration="1792000" />
-      <workItem from="1616436399242" duration="1303000" />
-      <workItem from="1616657792582" duration="598000" />
-      <workItem from="1616674070065" duration="683000" />
-      <workItem from="1616683482135" duration="1066000" />
-      <workItem from="1616687311985" duration="1644000" />
-      <workItem from="1616739106779" duration="982000" />
-      <workItem from="1616918518945" duration="674000" />
-      <workItem from="1616931383835" duration="604000" />
-      <workItem from="1616954058896" duration="952000" />
-      <workItem from="1616955906922" duration="665000" />
-      <workItem from="1617274855832" duration="610000" />
-      <workItem from="1617528126242" duration="997000" />
-      <workItem from="1617532124555" duration="313000" />
-      <workItem from="1617533363369" duration="79000" />
-      <workItem from="1617533537325" duration="966000" />
-      <workItem from="1617708599276" duration="14000" />
-      <workItem from="1618386513932" duration="596000" />
-      <workItem from="1618389252984" duration="1485000" />
-      <workItem from="1618391074903" duration="1789000" />
-      <workItem from="1618392952502" duration="1156000" />
-      <workItem from="1618426263619" duration="938000" />
-      <workItem from="1618459125771" duration="2082000" />
-      <workItem from="1618483866893" duration="13000" />
-      <workItem from="1618561680279" duration="1693000" />
-      <workItem from="1618563546796" duration="2752000" />
-      <workItem from="1618567146870" duration="1546000" />
-      <workItem from="1618568973159" duration="831000" />
-      <workItem from="1618570834676" duration="1597000" />
-      <workItem from="1618591085776" duration="1721000" />
-      <workItem from="1618592846956" duration="594000" />
-      <workItem from="1618727234422" duration="1099000" />
-      <workItem from="1618730461690" duration="1531000" />
-      <workItem from="1618732268719" duration="648000" />
-      <workItem from="1618734331346" duration="1571000" />
-      <workItem from="1618805402098" duration="2685000" />
-      <workItem from="1618808858819" duration="599000" />
-      <workItem from="1618816187054" duration="1730000" />
-      <workItem from="1618817965742" duration="1781000" />
-      <workItem from="1618819779170" duration="1447000" />
-      <workItem from="1618821645647" duration="1597000" />
-      <workItem from="1618823706489" duration="1647000" />
-      <workItem from="1618831373370" duration="549000" />
-      <workItem from="1618903861192" duration="593000" />
-      <workItem from="1618992074835" duration="6000" />
-      <workItem from="1619009931455" duration="597000" />
-      <workItem from="1619013516772" duration="1948000" />
-      <workItem from="1619020004192" duration="1988000" />
-      <workItem from="1619028192780" duration="1770000" />
-      <workItem from="1619029999462" duration="1575000" />
-      <workItem from="1619069548582" duration="1185000" />
-      <workItem from="1619079093619" duration="934000" />
-      <workItem from="1619081694620" duration="593000" />
-      <workItem from="1619113961311" duration="1779000" />
-      <workItem from="1619115779110" duration="1782000" />
-      <workItem from="1619117647572" duration="467000" />
-      <workItem from="1619155729438" duration="594000" />
-      <workItem from="1619160566235" duration="11000" />
-      <workItem from="1619164979956" duration="18000" />
-      <workItem from="1619165010792" duration="1483000" />
-      <workItem from="1619166859567" duration="1865000" />
-      <workItem from="1619168773823" duration="1316000" />
-      <workItem from="1619178027367" duration="68000" />
-      <workItem from="1619178295185" duration="5921000" />
-      <workItem from="1619289203455" duration="250000" />
-      <workItem from="1619329582907" duration="471000" />
-      <workItem from="1619413136677" duration="5386000" />
-      <workItem from="1619424473114" duration="4102000" />
-      <workItem from="1619447800490" duration="14044000" />
-      <workItem from="1619554625315" duration="3119000" />
-      <workItem from="1619889026068" duration="6454000" />
-      <workItem from="1620168603747" duration="2830000" />
-      <workItem from="1620364939554" duration="2760000" />
-      <workItem from="1620451040905" duration="2073000" />
-      <workItem from="1620659087382" duration="1769000" />
-      <workItem from="1621227420550" duration="1363000" />
-      <workItem from="1621347066504" duration="3319000" />
-      <workItem from="1621411522813" duration="1285000" />
-      <workItem from="1621734406006" duration="965000" />
-      <workItem from="1621780991179" duration="682000" />
+      <updated>1622691266539</updated>
+      <workItem from="1622691268976" duration="4516000" />
+      <workItem from="1622774967663" duration="5938000" />
+      <workItem from="1622804769134" duration="2532000" />
+      <workItem from="1623031308955" duration="2269000" />
+      <workItem from="1623053703519" duration="1236000" />
+      <workItem from="1623117608004" duration="3626000" />
+      <workItem from="1623307996477" duration="3793000" />
+      <workItem from="1623395722424" duration="3500000" />
+      <workItem from="1625105151155" duration="1000" />
+      <workItem from="1625105203482" duration="39000" />
+      <workItem from="1625217708432" duration="1552000" />
     </task>
-    <task id="LOCAL-00001" summary="1">
-      <created>1615017300573</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1615017300573</updated>
-    </task>
-    <task id="LOCAL-00002" summary="2">
-      <created>1615355254556</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1615355254556</updated>
-    </task>
-    <task id="LOCAL-00003" summary="2">
-      <created>1616053200164</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1616053200164</updated>
-    </task>
-    <task id="LOCAL-00004" summary="2">
-      <created>1618394037597</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1618394037597</updated>
-    </task>
-    <task id="LOCAL-00005" summary="good">
-      <created>1619118078143</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1619118078143</updated>
-    </task>
-    <task id="LOCAL-00006" summary="1">
-      <created>1619508906930</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1619508906930</updated>
-    </task>
-    <task id="LOCAL-00007" summary="1">
-      <created>1619889067377</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1619889067377</updated>
-    </task>
-    <task id="LOCAL-00008" summary="1">
-      <created>1620031286478</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1620031286478</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="2" />
-    <MESSAGE value="good" />
-    <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1616435161498">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1616435161498" />
-    <state x="94" y="58" width="1089" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614657324862">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="94" y="58" width="1089" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1614657324862" />
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1614884897530">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614884897530" />
-    <state x="499" y="187" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1616318751968">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="187" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1616318751968" />
-    <state x="341" y="60" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1614657297443">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="341" y="60" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1614657297443" />
-    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1617528523355">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1617528523355" />
-    <state x="539" y="279" width="457" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619114134566">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="539" y="279" width="457" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1619114134566" />
-    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614717969605">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1614717969605" />
-    <state x="249" y="0" key="#项目结构" timestamp="1614657218094">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="249" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1614657218094" />
-    <state x="520" y="253" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1618464030293">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="520" y="253" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1618464030293" />
-    <state x="458" y="0" key="CommitChangelistDialog2" timestamp="1621781079143">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="458" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621781079143" />
-    <state width="386" height="466" key="DebuggerActiveHint" timestamp="1619115509678">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="386" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1619115509678" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1619554666043">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1619554666043" />
-    <state width="1493" height="120" key="GridCell.Tab.0.bottom" timestamp="1621772570165">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621772570165" />
-    <state width="1493" height="120" key="GridCell.Tab.0.center" timestamp="1621772570165">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621772570165" />
-    <state width="1493" height="120" key="GridCell.Tab.0.left" timestamp="1621772570165">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621772570165" />
-    <state width="1493" height="120" key="GridCell.Tab.0.right" timestamp="1621772570165">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621772570165" />
-    <state width="1493" height="120" key="GridCell.Tab.1.bottom" timestamp="1621772570166">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="120" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621772570166" />
-    <state width="1493" height="120" key="GridCell.Tab.1.center" timestamp="1621772570165">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="120" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621772570165" />
-    <state width="1493" height="120" key="GridCell.Tab.1.left" timestamp="1621772570165">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="120" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621772570165" />
-    <state width="1493" height="120" key="GridCell.Tab.1.right" timestamp="1621772570165">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="120" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621772570165" />
-    <state width="1493" height="299" key="GridCell.Tab.2.bottom" timestamp="1620037742907">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="299" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620037742907" />
-    <state width="1493" height="299" key="GridCell.Tab.2.center" timestamp="1620037742907">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="299" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1620037742907" />
-    <state width="1493" height="299" key="GridCell.Tab.2.left" timestamp="1620037742907">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="299" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1620037742907" />
-    <state width="1493" height="299" key="GridCell.Tab.2.right" timestamp="1620037742907">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="299" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1620037742907" />
-    <state x="600" y="113" key="RollbackChangesDialog" timestamp="1614614680658">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="600" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1614614680658" />
-    <state x="510" y="62" width="996" height="707" key="SettingsEditor" timestamp="1619928913151">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="510" y="62" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1619928913151" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1620031287680">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620031287680" />
-    <state x="582" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618394013973">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="582" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1618394013973" />
-    <state x="170" y="150" width="1000" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1619114498387">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="170" y="150" width="1000" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1619114498387" />
-    <state x="410" y="78" key="new project wizard" timestamp="1617275694830">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="410" y="78" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1617275694830" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1619514375593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1619514375593" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1619424172724">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1619424172724" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="org.apache.ibatis.binding.BindingException" package="org.apache.ibatis.binding" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/template/HotsTemplate.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="com.baomidou.mybatisplus.extension.plugins.pagination.Page" memberName="total" />
-        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
-      </pinned-members>
-    </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="mPostService" language="JAVA" />
-        <watch expression="results" />
-        <watch expression="results" language="JAVA" />
-        <watch expression="results" language="JAVA" />
-        <watch expression="((java.util.ArrayList)((Page)results).records).get(0)" custom="com.baomidou.mybatisplus.extension.plugins.pagination.Page,java.util.ArrayList" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/e_blog$YblogApplication.ic" NAME="YblogApplication Coverage Results" MODIFIED="1618816538376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.example.*</FILTER>
-    </SUITE>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
