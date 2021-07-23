@@ -11,6 +11,7 @@ import com.example.entity.MPost;
 import com.example.entity.MUser;
 import com.example.entity.MUserMessage;
 import com.example.shiro.AccountProfile;
+import com.example.util.UploadUtil;
 import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.apache.shiro.SecurityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,8 @@ import java.util.Map;
 @Controller
 public class UserController extends BaseController {
 
+    @Autowired
+    UploadUtil uploadUtil;
 
     @GetMapping("/user/home")
     public String home() {
@@ -96,6 +99,11 @@ public class UserController extends BaseController {
         return Result.success().action("/user/set#info");
     }
 
+    @ResponseBody
+    @PostMapping("/user/upload")
+    public Result uploadAvatar(@RequestParam(value = "file") MultipartFile file) throws IOException {
+        return uploadUtil.upload(UploadUtil.type_avatar, file);
+    }
 
     @ResponseBody
     @RequestMapping("/message/num" + "" + "" + "s/")

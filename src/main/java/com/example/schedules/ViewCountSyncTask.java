@@ -27,7 +27,7 @@ public class ViewCountSyncTask {
     MPostService mpostService;
 
 
-    @Scheduled(cron = "0/5 * * * * *") //每分钟同步
+    @Scheduled(cron = "0/59 * * * * *") //每分钟同步
     public void task() {
 
         Set<String> keys = redisTemplate.keys("rank:post:*");

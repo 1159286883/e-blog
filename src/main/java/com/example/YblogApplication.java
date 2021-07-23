@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableScheduling
 @SpringBootApplication
-@MapperScan("com.example.mapper")
+@MapperScan("com.example.mapper,com.example.commom.lang")
 public class YblogApplication {
 
     public static void main(String[] args) {

@@ -24,5 +24,13 @@ public class IndexController extends BaseController {
         req.setAttribute("currentCategoryId",0);
         return  "index";
     }
+    @RequestMapping({"/1"})
+    public String index1 (){
+
+        IPage results1 = mPostService.paging1(getPage(),null,null,null,null,"created");
+        req.setAttribute("pageData1",results1);
+        req.setAttribute("currentCategoryId",0);
+        return  "index1";
+    }
 
 }

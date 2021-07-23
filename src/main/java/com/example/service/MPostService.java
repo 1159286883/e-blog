@@ -27,4 +27,6 @@ public interface MPostService extends IService<MPost> {
     void incrCommentCountAndUnionForWeekRank(long postId, boolean isIncr);
 
     void putViewCount(PostVo vo);
+
+    IPage paging1(Page page, Long categoryId, Long userId, Integer level, Boolean recommend, String order);
 }

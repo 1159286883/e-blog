@@ -39,6 +39,14 @@
         ${ew.customSqlSegment}
 
     </select>
+    <select id="selectPosts1" resultType="com.example.entity.MUser">
+
+        SELECT *
+        FROM
+       m_user
+           ${ew.customSqlSegment}
+
+    </select>
 
 
 </mapper>

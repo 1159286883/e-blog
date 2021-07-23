@@ -2,29 +2,29 @@
 
     <!DOCTYPE html>
     <html>
-    <head>
-        <meta charset="utf-8">
-        <title>基于 layui 的极简社区页面模版</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="keywords" content="fly,layui,前端社区">
-        <meta name="description" content="Fly社区是模块化前端UI框架Layui的官网社区，致力于为web开发提供强劲动力">
-        <link rel="stylesheet" href="/static/res/layui/css/layui.css">
-        <link rel="stylesheet" href="/static/res/css/global.css">
+<head>
+    <meta charset="utf-8">
+    <title>基于 layui 的极简社区页面模版</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="fly,layui,前端社区">
+    <meta name="description" content="Fly社区是模块化前端UI框架Layui的官网社区，致力于为web开发提供强劲动力">
+    <link rel="stylesheet" href="/static/res/layui/css/layui.css">
+    <link rel="stylesheet" href="/static/res/css/global.css">
 
-        <script src="/static/res/layui/layui.js"></script>
-        <#--<script src="/static/res/js/jquery.min.js"></script>
-        <script src="/static/res/js/sockjs.js"></script>
-        <script src="/static/res/js/stomp.js"></script>
-        <script src="/static/res/js/im.js"></script>-->
-        <script src="/static/res/js/chat.js"></script>
-        <script src="/static/res/mods/index.js"></script>
-        <script src="/static/res/mods/face.js"></script>
-        <script src="/static/res/mods/jie.js"></script>
-        <script src="/static/res/mods/user.js"></script>
-        <script src="/static/res/mods/case.js"></script
+    <script src="/static/res/layui/layui.js"></script>
+    <#--<script src="/static/res/js/jquery.min.js"></script>
+    <script src="/static/res/js/sockjs.js"></script>
+    <script src="/static/res/js/stomp.js"></script>
+    <script src="/static/res/js/im.js"></script>
+    <script src="/static/res/js/chat.js"></script>-->
+    <script src="/static/res/mods/index.js"></script>
+    <script src="/static/res/mods/face.js"></script>
+    <script src="/static/res/mods/jie.js"></script>
+    <script src="/static/res/mods/user.js"></script>
+    <script src="/static/res/mods/case.js"></script>
 
-    </head>
-    <body>
+</head>
+<body>
     <#include "/inc/commom.ftl"  />
     <#include "/inc/header.ftl"  />
 
@@ -36,16 +36,14 @@
         layui.cache.user = {
             username: '${profile.username!"游客"}'
             ,uid: ${profile.id!"-1"}
-            ,avatar: '${profile.avatar!"/res/images/avatar/00.jpg"}'
+            ,avatar: '${profile.avatar!"/static/res/images/avatar/00.jpg"}'
             ,experience: 83
             ,sex: '${profile.sex!"男"}'
         };
         layui.config({
             version: "3.0.0"
-            ,base: '/res/mods/' //这里实际使用时，建议改成绝对路径
-        }).extend({
-            fly: 'index'
-        }).use('fly');
+            ,base: '/static/res/mods/' //这里实际使用时，建议改成绝对路径
+        });
     </script>
 
     <script>
@@ -65,7 +63,7 @@
                 layer.closeAll('tips');
             })
         }
-        $(function () {
+       /* $(function () {
             var elemUser = $('.fly-nav-user');
             if(layui.cache.user.uid !== -1 && elemUser[0]){
                 var socket = new SockJS("/websocket")
@@ -78,7 +76,7 @@
                     })
                 });
             }
-        });
+        });*/
     </script>
 
     </body>

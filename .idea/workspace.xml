@@ -5,17 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f878d2df-76fe-4d2c-92ee-c1bf1ea85b9c" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/common/lang/Consts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/util/UploadUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/YblogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/YblogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/MPostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mapper/MPostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/schedules/ViewCountSyncTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/schedules/ViewCountSyncTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/MPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/MPostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/impl/MPostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/MPostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/template/PostsTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/template/PostsTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/res/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/res/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/MPostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MPostMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/inc/commom.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/inc/commom.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/inc/layout.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/inc/layout.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/YblogApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/YblogApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/home.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/home.ftl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -24,6 +42,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1tQB6yJkLxINUeFW69CrIg5aJcj" />
   <component name="ProjectViewState">
@@ -41,6 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Users/Documents/WXWork/1688850237895085/Cache/File/2021-06/wxwork-tool" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.60209423" />
@@ -53,6 +80,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YblogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="e-blog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.YblogApplication" />
@@ -80,6 +118,17 @@
       <workItem from="1625105151155" duration="1000" />
       <workItem from="1625105203482" duration="39000" />
       <workItem from="1625217708432" duration="1552000" />
+      <workItem from="1625536943134" duration="14285000" />
+      <workItem from="1625623600733" duration="620000" />
+      <workItem from="1625648766004" duration="4924000" />
+      <workItem from="1625657734181" duration="10000" />
+      <workItem from="1625815360069" duration="8199000" />
+      <workItem from="1625828137677" duration="45000" />
+      <workItem from="1626085529386" duration="2756000" />
+      <workItem from="1626770334437" duration="3817000" />
+      <workItem from="1626870490801" duration="3546000" />
+      <workItem from="1626919403706" duration="596000" />
+      <workItem from="1626946698804" duration="8354000" />
     </task>
     <servers />
   </component>

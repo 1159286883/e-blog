@@ -55,6 +55,25 @@
         </div>
     </li>
 </#macro>
+<#macro plisting1 post>
+
+    <li>
+        <a href="/user/${post.id}" class="fly-avatar">
+            <img src="/static${post.avatar}" alt="${post.username}">
+        </a>
+        <h2>
+            <#if post.level gt 0><a class="layui-badge">${男}</a></#if>
+            <#if post.level gt 0><a class="layui-badge">${女}</a></#if>
+            <a href="/post/${post.id}">邮箱号${post.email}</a>
+        </h2>
+
+        <div class="fly-list-badge">
+           <span class="layui-badge layui-bg-red">删除</span>
+           <span class="layui-badge layui-bg-black">编辑</span>
+
+        </div>
+    </li>
+</#macro>
 
 <#macro centerLeft level>
 

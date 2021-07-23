@@ -26,9 +26,7 @@ public class PostsTemplate extends TemplateDirective {
         Integer pn = handler.getInteger("pn", 1);
         Integer size = handler.getInteger("size", 2);
         Long categoryId = handler.getLong("categoryId");
-
         IPage page = mpostService.paging(new Page(pn, size), categoryId, null, level, null, "created");
-
         handler.put(RESULTS, page).render();
     }
 }

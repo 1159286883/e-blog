@@ -152,5 +152,18 @@ public class MPostServiceImpl extends ServiceImpl<MPostMapper, MPost> implements
         redisUtil.hset(key, "post:viewCount", vo.getViewCount());
 
     }
+    @Override
+    public IPage<PostVo> paging1(Page page, Long categoryId, Long userId, Integer level, Boolean recommend, String order){
+
+        if(level==null) level=-1;
+        QueryWrapper wrapper = new QueryWrapper<MPost>()
+                .eq(categoryId!=null, "categor_id",categoryId)
+                .eq(userId!=null, "user_id",userId)
+                .eq(level==0, "level",0)
+                .gt(level>0,"level",0)
+                .orderByDesc(order!=null, order);
+        return mPostMapper.selectPosts1(page,wrapper);
+    }
+
 
 }

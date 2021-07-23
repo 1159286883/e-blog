@@ -15,6 +15,7 @@ spring:
    password:
   mybatis-plus:
     mapper-locations: classpath*:/mapper/*.xml
+
   mvc:
     static-path-pattern: /static/**
   freemarker:
@@ -28,5 +29,7 @@ spring:
     expose-session-attributes: false
     expose-spring-macro-helpers: false
 
-
+    file:
+      upload:
+        dir: ${user.dir}/upload
 
