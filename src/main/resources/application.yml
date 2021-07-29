@@ -29,7 +29,7 @@ spring:
     expose-session-attributes: false
     expose-spring-macro-helpers: false
 
-    file:
-      upload:
-        dir: ${user.dir}/upload
+file:
+   upload:
+      dir: ${user.dir}/upload
 

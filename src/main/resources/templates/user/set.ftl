@@ -68,11 +68,12 @@
                                 <button type="button" class="layui-btn upload-img">
                                     <i class="layui-icon">&#xe67c;</i>上传头像
                                 </button>
-                                <img src="/static<@shiro.principal property="avatar" />">
+                                <img src="<@shiro.principal property="avatar" />">
                                 <span class="loading"></span>
                             </div>
                         </div>
                     </div>
+
 
                     <div class="layui-form layui-form-pane layui-tab-item">
                         <form action="/user/repass" method="post">
